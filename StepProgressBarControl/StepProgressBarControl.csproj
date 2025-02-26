@@ -21,7 +21,7 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.*" />
 	</ItemGroup>
 <ItemGroup>
-        <None Include="LICENSE" Pack="true" PackagePath="" />
-        <None Include="README.md" Pack="true" PackagePath="" />
+        <None Include="LICENSE" Pack="true" PackagePath="\" />
+        <None Include="README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 </Project>
