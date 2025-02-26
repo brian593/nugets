@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+<PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>StepProgressBarControl</RootNamespace>
+        <AssemblyName>StepProgressBarControl</AssemblyName>
+        <PackageId>StepProgressBarControl</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Brian593</Authors>
+        <Description>Un control de barra de progreso por pasos para .NET MAUI</Description>
+        <PackageTags>MAUI;StepProgressBar;Control</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <WarningLevel>4</WarningLevel>
+</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.*" />
+	</ItemGroup>
+<ItemGroup>
+        <None Include="LICENSE" Pack="true" PackagePath="" />
+        <None Include="README.md" Pack="true" PackagePath="" />
+    </ItemGroup>
+</Project>
